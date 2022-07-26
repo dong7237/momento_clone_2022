@@ -1,0 +1,148 @@
+.background_img {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    left: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+
+
+#login_form {
+    display: flex;
+    justify-content: center;
+}
+
+#input_id {
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 400px;
+    height: 50px;
+    font-size: 45px;
+}
+
+#submit_id {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: white;
+
+}
+
+#submit_id::placeholder {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#input_id:focus {
+    outline: none;
+    color: white;
+
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    z-index: -2;
+    top: 0;
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+}
+
+#todo_form {
+    display: flex;
+    justify-content: center;
+
+}
+
+#todo_input {
+    background-color: rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 45px;
+    color: white;
+
+}
+
+#todo_input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#todo_input:focus {
+    outline: none;
+}
+
+.quotes_box {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+    font-size: 20px;
+
+}
+
+.quotes {
+    margin-right: 10px;
+}
+
+#todo_list {
+    width: 100vw;
+    height: 100px;
+    overflow-y: hidden;
+}
+
+#todo_list li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 25vw;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#todo_submit {
+    background-color: rgba(0, 0, 0, 0);
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
